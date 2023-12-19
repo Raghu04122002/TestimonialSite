@@ -1,0 +1,253 @@
+.rect-div{
+    position: fixed;
+    width: 1082px;
+    height: 300px;
+    left: 1150px;
+    top: -175px;
+    background: #050505;
+    box-shadow: 0px 34px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 300px;
+    transform: rotate(150deg);
+}
+.down-rect-div{
+    position: fixed;
+    width: 1082px;
+    height: 500px;
+    left: -525px;
+    top: 575px;
+    background: #050505;
+    box-shadow: 0px 34px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 300px;
+    transform: rotate(180deg);
+}
+.testimonial1{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 24px;
+    gap: 9px;
+    text-align: center;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 70px;
+    top: 148px;
+    background: #FFFFFF;
+    box-shadow: 0px 21.7001px 47.625px #4747B9;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 12px;
+    gap: 3px;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 30px;
+    top: -25px;
+    background: #050505;
+    box-shadow: 15px 18px 30px rgba(57, 57, 188, 0.16);
+}
+.profile-frame{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+    width: 102px;
+    height: 29.25px;
+}
+.profile-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 41.25px;
+    height: 29.25px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.image{
+    position: absolute;
+    width: 81px;
+    height: 87px;
+    left: -45px;
+    top: -10px;
+}
+.name-job{
+    position: relative;
+    padding: 0px;
+    gap: 1.5px;
+    left: -19%;
+    top: -20%;
+    width: 87px;
+    height: 29.25px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.name{
+    width: 85px;
+    height: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.job{
+    width: 87px;
+    height: 11px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 65%;
+    line-height: 11px;
+    color: #E2E2E2;
+}
+.logo-stars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 3px;
+    width: 102px;
+    height: 38px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 76.37px;
+    height: 15.27px;
+    filter: drop-shadow(0px 25.6402px 54.5536px rgba(21, 21, 21, 0.15));   
+}
+.star1{
+    width: 15.27px;
+    height: 15.27px;
+}
+.img-star{
+   width: 12px;   
+    filter: brightness(0) invert(1);
+    border-radius: 0.545536px;
+}
+.logo{
+    width: 75px;
+    height: 14px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 3px; 
+}
+.like{
+     width: 17%;  
+}
+.test{
+    align-self: center;
+    /* top: 31.52%;*/
+   /* bottom: 32.04%;*/
+    color: white;
+    font-size: 53%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 88px 30px 32px;
+    isolation: isolate;
+    width: 390px;
+    height: 183px;
+    align-self: stretch;
+}
+.text-p{
+    width: 330px;
+    height: 63px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 0;
+}
+.quotes{
+    position: absolute;
+    left: 5.31%;
+    right: 77.68%;
+    top: 86%;
+    bottom: -28.23%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+.testimonial2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 24px;
+    gap: 9px;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 550px;
+    top: 316px;
+    background: #FFFFFF;
+    box-shadow: 0px 21.7001px 47.625px #4747B9;
+}
+.body-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 88px 30px 32px;
+    width: 390px;
+    height: 183px;
+    align-self: stretch;
+}
+.star2{
+    width: 15.27px;
+    height: 15.27px;
+    align-self: stretch;
+}
+.testimonial3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 24px;
+    gap: 9px;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 1050px;
+    top: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 21.7001px 47.625px #4747B9;
+}
+.body-text3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 88px 30px 32px;
+    width: 390px;
+    height: 183px;
+    align-self: stretch;
+}
